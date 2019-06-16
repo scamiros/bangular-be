@@ -138,7 +138,7 @@
 							<outputDirectory>${project.basedir}/target/classes/static/</outputDirectory>
 							<resources>
 								<resource>
-									<directory>${project.basedir}/../apprun-cli/dist/apprun-cli</directory>
+									<directory>${project.basedir}/../bangular-fe/dist/apprun-cli</directory>
 								</resource>
 							</resources>
 						</configuration>
