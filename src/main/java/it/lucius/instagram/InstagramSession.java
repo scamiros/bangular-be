@@ -117,7 +117,7 @@ public class InstagramSession {
 	public User getUserSelf() throws InstagramException {
 		GetMethod getMethod = new GetMethod();
 		APIMethod api = getMethod.setMethodURI(uriConstructor.constructUri(UriFactory.Users.GET_SELF, null, true));
-		
+		System.out.println(getMethod.getMethodUri());
 		JSONObject userObject = null;
 		User user = null;
 		try {

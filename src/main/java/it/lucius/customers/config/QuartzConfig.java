@@ -73,7 +73,7 @@ public class QuartzConfig {
 		dayFactory.setName("instaStatsDayTrigger");
 		dayFactory.setGroup("instaGroup");
 		//dayFactory.setCronExpression("0 44 23 ? * *");
-		dayFactory.setCronExpression("0 */2 * ? * *");
+		dayFactory.setCronExpression("0 */10 * ? * *");
 		
 		return dayFactory;
 	}
